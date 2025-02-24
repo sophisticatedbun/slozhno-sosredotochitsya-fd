@@ -10,7 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --bg-image: url('../images/cover-image-light.png');
-  --bg-color: #000028;
+  --bg-color: #FFF1F7;
   --nav-color: #353430;
   --nav-hover-color: rgba(50, 49, 45, 0.4);
   --cover-title-color: #FFC2E6;
@@ -26,7 +26,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --bg-image: url('../images/cover-image-light.png');
-    --bg-color: #000028;
+    --bg-color: #FFF1F7;
     --nav-color: #353430;
     --nav-hover-color: rgba(50, 49, 45, 0.4);
     --cover-title-color: #FFC2E6;
