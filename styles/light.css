@@ -17,14 +17,14 @@
   --cover-title-shadow: #FF8DCB;
   --title-color: #353430;
   --subtitle-color: #353430;
-  --accent-color: #FF8DCB; 
+  --accent-color: #FF8DCB;
   --accent-text-color: #353430;
   --text-color: #353430;
   --decoration-color: #353430;
 }
 
 @media (prefers-color-scheme: light) {
-  :root { 
+  :root {
     --bg-image: url('../images/cover-image-light.png');
     --bg-color: #000028;
     --nav-color: #353430;
@@ -33,7 +33,7 @@
     --cover-title-shadow: #FF8DCB;
     --title-color: #353430;
     --subtitle-color: #353430;
-    --accent-color: #FF8DCB; 
+    --accent-color: #FF8DCB;
     --accent-text-color: #353430;
     --text-color: #353430;
     --decoration-color: #353430;

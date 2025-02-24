@@ -23,8 +23,8 @@
   --decoration-color: #FF0070;
 }
 
-@media (prefers-color-scheme: light) {
-  :root { 
+@media (prefers-color-scheme: dark) {
+  :root {
     --bg-image: url('../images/cover-image-dark.png');
     --bg-color: #000028;
     --nav-color: #FF0070;
