@@ -21,7 +21,6 @@
   block-size: 100vh;
   padding: 10px;
   display: grid;
-  grid-template-columns: 1fr;
   grid-template-rows: 1fr min-content 1fr;
   justify-items: end;
   align-items: center;
@@ -269,7 +268,8 @@
   .header__title {
     justify-self: start;
     margin-inline-start: -20px;
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    line-height: 99px;
   }
 
   .header__description {
@@ -312,6 +312,10 @@
     block-size: 100%;
     object-fit: cover;
   }
+
+  .footer__text {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
 }
 
 @media (width >= 1024px) {
@@ -327,7 +331,7 @@
   .header__title {
     justify-self: start;
     margin-inline-start: -20px;
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
+    line-height: 130px;
   }
 
   .topic {
