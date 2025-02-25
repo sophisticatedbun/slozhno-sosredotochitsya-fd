@@ -23,6 +23,10 @@
   --decoration-color: #353430;
 }
 
+.theme-light .header__rec {
+  display: none;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --bg-image: url('../images/cover-image-light.png');
@@ -38,8 +42,8 @@
     --text-color: #353430;
     --decoration-color: #353430;
   }
-}
-
-.theme-light .header__rec {
-  display: none;
+  
+  .header__rec {
+    display: none;
+  }
 }
